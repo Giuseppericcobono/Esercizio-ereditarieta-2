@@ -26,7 +26,6 @@ public class Rettangolo extends Forma{
 
     @Override
     public double calcolaArea() {
-        super.calcolaArea();
         System.out.println("Rettangolo");
         return base * height;
     }
